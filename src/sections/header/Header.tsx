@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 
 export default function Header() {
   const [onScrollClassName, setOnScrollClassName] = useState<string>("");
-  const [widthScreen, setWidthScreen] = useState<number>();
+  // const [widthScreen, setWidthScreen] = useState<number>();
 
   const onScroll = () => {
     if (window !== undefined) {
-      setWidthScreen(window.screen.width);
+      // setWidthScreen(window.screen.width);
       window.scrollY > 1
         ? setOnScrollClassName(
             "bg-slate-950/50 backdrop-blur-2xl border-b-2 border-white",
@@ -16,7 +16,7 @@ export default function Header() {
     }
   };
 
-  const getWidthScreen = () => {};
+  // const getWidthScreen = () => {};
 
   useEffect(() => {
     window.addEventListener("scroll", onScroll);
