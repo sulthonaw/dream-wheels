@@ -1,13 +1,13 @@
 import { ArrowDownRightIcon } from "@heroicons/react/16/solid";
+// import carsGIF from "../../assets/cars.gif";
+// import carsGIF_2 from "../../assets/cars_2.gif";
+import carsGIF_3 from "../../assets/cars_3.gif";
 
 export default function Hero() {
-  const url: string =
-    "https://images.unsplash.com/photo-1534998367816-92fe742a94bb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-
   return (
     <section
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url('${url}')` }}
+      style={{ backgroundImage: `url('${carsGIF_3}')` }}
     >
       <div className="relative flex h-screen w-full items-center justify-center bg-slate-950/50 px-4">
         <div className="max-w-2xl text-center text-white">
