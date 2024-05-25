@@ -31,7 +31,7 @@ export default function Footer() {
     "https://images.unsplash.com/photo-1658977357835-307ba1121ce6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 
   return (
-    <footer className="container flex flex-col-reverse gap-40 py-16 *:flex-1 md:flex-wrap">
+    <footer className="container flex flex-col-reverse gap-40 py-16 *:flex-1 md:flex-row">
       <div>
         {nav.map((value: NavType) => (
           <article className="mb-10 flex gap-5 *:flex-1">
