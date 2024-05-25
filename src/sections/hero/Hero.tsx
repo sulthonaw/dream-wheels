@@ -1,12 +1,11 @@
 import { ArrowDownRightIcon } from "@heroicons/react/16/solid";
-// import carsGIF from "../../assets/cars.gif";
-import carsGIF_2 from "../../assets/cars_2.gif";
+import carsGIF from "../../assets/cars.gif";
 
 export default function Hero() {
   return (
     <section
       className="min-h-screen w-full bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url('${carsGIF_2}')` }}
+      style={{ backgroundImage: `url('${carsGIF}')` }}
     >
       <div className="relative flex h-screen w-full items-center justify-center bg-slate-950/50 px-4">
         <div className="max-w-2xl text-center text-white">
